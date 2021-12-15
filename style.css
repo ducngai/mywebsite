@@ -1,0 +1,38 @@
+:root{
+    --bg1 : #9b59b6;
+    --bg2 : #3498db;
+    --text : #26aed4;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(ac2013f345ccb492eddd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    margin-right: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 2px solid var(--text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.item span{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 12px;
+}
